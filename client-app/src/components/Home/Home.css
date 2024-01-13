@@ -1,0 +1,36 @@
+.home{
+    height: auto;
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+}
+.homeBanner{
+    height: 700px;
+    margin: 10px;
+        padding: 10px;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        align-items: center;
+}
+.homeBanner>img{
+    margin: 20px;
+    padding: 10px;
+    height: 75%;
+    width: auto;
+}
+.textart{
+    margin: 20px;
+    padding: 10px;
+    width: fit-content;
+    height: auto;
+    font-family: "Josefin Sans";
+}
+.textart > h3{
+    font-family: "Josefin Sans";
+    letter-spacing: 3px;
+}
+.textart > h5{
+    display: flex;
+    justify-content: flex-end;
+}

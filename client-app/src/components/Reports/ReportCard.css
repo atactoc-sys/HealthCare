@@ -1,0 +1,31 @@
+/* ReportCard.css */
+
+.CardRoot {
+    min-Width: 275px;
+    margin-Bottom: 16px;
+    margin: 30px;
+}
+
+.CardContentRoot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ReportTitle {
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+}
+
+.ReportContent {
+    margin-bottom: 16px;
+}
+
+.ViewDetailsButton {
+    background-color: #1976d2;
+    color: #fff;
+
+    &:hover {
+        background-color: #1565c0;
+    }
+}

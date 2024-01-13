@@ -1,0 +1,16 @@
+.report{
+    margin-top: 30px;
+        display: flex;
+        height: 600px;
+        align-content: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+.reportComponent{
+    height: 400px;
+    width: auto;
+   
+    position: relative;
+    display: flex;
+
+}

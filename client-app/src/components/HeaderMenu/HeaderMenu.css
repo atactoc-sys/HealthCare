@@ -1,0 +1,129 @@
+.header{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #F5F5DC;
+    padding: 10px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.473);
+}
+.headercomponent{
+    
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left{
+    height: 70%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    padding: 10px;
+    width: fit-content;
+}
+.left > svg{
+    color: #1a1718;
+    height: 80px;
+    width: 80px;
+    margin-right: 30px;
+}
+.left > h5{
+    display: contents;
+    font-size: 40px;
+    letter-spacing: 3px;
+    font-family: "Tektur";
+    color: #1a1718;
+}
+.right{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 5px;
+    padding: 10px;
+    height: 70%;
+    width: fit-content;
+}
+.right > img{
+    height: 100%;
+    width: auto;
+    border-radius: 100%;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.473);
+
+}
+.right > a {
+    height: 60;
+        width: fit-content;
+        margin-left: 30px;
+    color: #1a1718;
+}
+.dmt{
+    z-index: 101;
+        transition-duration: 500ms;
+        top: 0px;
+        left: 0px;
+        transform: translate3d(-100%, 0px, 0px);
+        width: 400;
+        height: 100vh;
+        margin-top: 100px;
+        background-color: blue;
+}
+.EZDrawer{
+    width: 0;
+}
+
+
+.EZDrawer__overlay{
+    margin-top: 100px;
+    filter: blur(1px);
+}
+.menu{
+    display: flex;
+        align-content: center;
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+        flex-direction: column;
+}
+.greeting{
+    height: 20%;
+        width: auto;
+        display: flex;
+        padding: 10px;
+        flex-direction: row;
+        display: grid;
+        align-items: flex-start;
+        justify-content: center;
+}
+.greeting >h5 {
+    height: auto;
+    width: fit-content;
+    font-size: 30px;
+    text-shadow: 0px 0 14px black;
+
+}
+ul{
+    list-style-type: none;
+    display: flex;
+        position: relative;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+}
+li{
+    display: flex;
+    position: relative;
+    text-align: center;
+    margin-top: 15px;
+    height: 50px;
+    font-family: "Roboto Mono";
+    letter-spacing: 2px;
+}
+li > a {
+    text-decoration: none;
+    
+}
